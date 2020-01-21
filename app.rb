@@ -7,6 +7,9 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
+
+    
+
     @session = session
   end
 
